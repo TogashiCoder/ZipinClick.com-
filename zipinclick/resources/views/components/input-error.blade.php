@@ -1,5 +1,5 @@
 @props(['message' => null])
 
 @if ($message)
-    <p class="text-danger">{{ $message }}</p>
+    <p {{ $attributes->merge(['class' => 'text-danger']) }}  class="text-danger">{{ $message }}</p>
 @endif
