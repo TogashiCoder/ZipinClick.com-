@@ -107,7 +107,7 @@
                             <img src="assets/images/icons/user.svg" alt="">
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                            <li><a class="dropdown-item" href="{{ route('login') }}">Sign In</a></li>
                             <li><a class="dropdown-item" href="#">Profile</a></li>
                             <li><a class="dropdown-item" href="#">Settings</a></li>
                         </ul>
