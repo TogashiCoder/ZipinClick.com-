@@ -1,7 +1,7 @@
 <!-- ==================== Footer Start Here ==================== -->
-     <footer class="footer-section " style="background: url(assets/images/shapes/footer-bg.png);">
+     <footer class="footer-section " style="background: url({{ asset('assets/frontend/images/shapes/footer-bg.png') }});">
          <div class="container">
-             <div class="subscription pt_55 pb_45" style="background: url(assets/images/thumbs/subscrib_bg.jpg);">
+             <div class="subscription pt_55 pb_45" style="background: url({{ asset('assets/frontend/images/thumbs/subscrib_bg.jpg') }});">
                  <div class="row align-items-center">
                      <div class="col-xl-6 col-lg-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                          <div class="subscription_text ">
