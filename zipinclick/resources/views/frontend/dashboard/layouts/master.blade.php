@@ -26,6 +26,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Main css -->
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/main.css') }}">
+    <!-- Selector css -->
+    <link rel="stylesheet" href="{{ asset('assets/frontend/css/select2.min.css') }}">
+
 
 </head>
 

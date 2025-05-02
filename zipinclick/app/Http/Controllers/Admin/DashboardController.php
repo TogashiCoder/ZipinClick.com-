@@ -12,7 +12,8 @@ class DashboardController extends Controller
 
     public function index():View
     {
-        return view('frontend.dashboard.index');
+        // return view('frontend.dashboard.index');
+        return view('admin.dashboard.index');
     }
 
 
